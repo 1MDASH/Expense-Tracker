@@ -46,6 +46,11 @@ CREATE TABLE expenses (
 - Use the "View Expenses" button to see all your expenses.
 
 ## Example Screenshots
+1)![main](C:\Users\Admin\OneDrive\Desktop\New folder\New folder\Screenshot 2025-06-22 213002.png)
+2)![sub1](C:\Users\Admin\OneDrive\Desktop\New folder\New folder\Screenshot 2025-06-22 213048.png)
+3)![sub2]("C:\Users\Admin\OneDrive\Desktop\New folder\New folder\Screenshot 2025-06-22 213129.png")
+4)![sub3]("C:\Users\Admin\OneDrive\Desktop\New folder\New folder\Screenshot 2025-06-22 213221.png")
+
 
 
 ## Credits
