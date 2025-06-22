@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>daily_expenses_manager</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .top-right-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <a href="view_expenses.html" class="top-right-btn">View Expenses</a>
+  <div class="container">
+    <h1> Add Daily Expenses</h1>
+    <form id="expenseForm">
+      <label>add date:</label>
+      <input type="date" id="date" name="date" placeholder="Date:" required><br>
+      <div id="expenseInputs">
+        <div class="expense-group">
+          <input type="text" name="title[]" placeholder="Expense Title" required>
+          <input type="number" name="amount[]" placeholder="Amount" required>
+        </div>
+      </div>
+      <button type="button" onclick="addExpenseGroup()">+ Add Another Expense</button><br><br>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
